@@ -30,13 +30,13 @@ router.put("/:id", async (req, res) => {
 
         res.status(200).json(updatedPost);
       } catch (err) {
-        res.status(500).jsonp(err);
+        res.status(500).json(err);
       }
     } else {
       res.status(401).json("You can only update your own posts!");
     }
   } catch (err) {
-    res.status(500).jsonp(err);
+    res.status(500).json(err);
   }
 });
 
@@ -50,13 +50,13 @@ router.delete("/:id", async (req, res) => {
         await post.delete();
         res.status(200).json("Post has been deleted...");
       } catch (err) {
-        res.status(500).jsonp(err);
+        res.status(500).json(err);
       }
     } else {
       res.status(401).json("You can only delete your own posts!");
     }
   } catch (err) {
-    res.status(500).jsonp(err);
+    res.status(500).json(err);
   }
 });
 

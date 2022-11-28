@@ -82,3 +82,9 @@
     background-color: #000;
     cursor: pointer;
 }
+
+.successMsg {
+    color: green;
+    text-align: center;
+    margin-top: 20px;
+}

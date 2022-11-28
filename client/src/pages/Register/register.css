@@ -53,3 +53,9 @@
       cursor: pointer;
       padding: 10px;
   }
+
+  .errorMsg {
+    color: yellow;
+    font-weight: 400;
+    margin-top: 15px;
+  }
