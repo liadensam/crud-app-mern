@@ -26,16 +26,6 @@ export default function TopBar() {
             </Link>
           </li>
           <li className="topListItem">
-            <Link className="link" to="/">
-              ABOUT
-            </Link>
-          </li>
-          <li className="topListItem">
-            <Link className="link" to="/">
-              CONTACT
-            </Link>
-          </li>
-          <li className="topListItem">
             <Link className="link" to="/write">
               WRITE
             </Link>
@@ -51,7 +41,7 @@ export default function TopBar() {
           <Link to="/settings">
             <img
               className="topImage"
-              src={publicFolder + user.profilePic}
+              src={user.profilePic ? (publicFolder + user.profilePic) : (publicFolder + 'smile.png')}
               alt="profile picture"
             />
           </Link>
@@ -70,8 +60,6 @@ export default function TopBar() {
             </li>
           </ul>
         )}
-
-        <i className="topSearchIcon fa-solid fa-magnifying-glass"></i>
       </div>
     </div>
   );

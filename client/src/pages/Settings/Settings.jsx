@@ -53,18 +53,28 @@ export default function Settings() {
           <span className="settingsDeleteTitle">Delete your account</span>
         </div>
         <form className="settingsForm" onSubmit={handleSubmit}>
-          <label>Profile picture</label>
+          <label>Change profile picture</label>
           <div className="settingsPP">
-            <img
-              src={
-                file
-                  ? URL.createObjectURL(file)
-                  : publicFolder + user.profilePic
-              }
-              alt="profile picture"
-            />
+            {user.profilePic ? (
+              <img
+                src={
+                  file
+                    ? URL.createObjectURL(file)
+                    : publicFolder + user.profilePic
+                }
+                alt="Profile picture. Click on file input to edit"
+              />
+            ) : (
+              <img
+                src={
+                  file ? URL.createObjectURL(file) : publicFolder + "smile.png"
+                }
+                alt="Profile picture. Click on file input to edit"
+              />
+            )}
+
             <label htmlFor="fileInput">
-              <i className="settingsPPIcon fa-regular fa-face-smile"></i>
+              <i className="settingsPPIcon fa-solid fa-rotate"></i>
             </label>
             <input
               type="file"
