@@ -28,7 +28,7 @@ There is a Walkthrough at the end 👇 of this Readme file (wait for the gifs to
 npm start
 ```
 
-
+<br>
 
 ### Register
 
