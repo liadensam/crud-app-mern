@@ -6,6 +6,10 @@ I created a blog page - [CRUD application](https://budibase.com/blog/crud-app/),
 
 👉 [HERE](https://youtu.be/bfeFSaO1w_k) is a Walkthrough video.
 
+👉 [Creating the post / writing / editing / deleting / updating](https://youtu.be/r_xnuN2p08U) on the blog.
+
+👉 [Seeing the post](https://youtu.be/xu_BGhuNpDQ) on the home page.
+
 
 
 <br>
