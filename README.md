@@ -112,6 +112,13 @@ npm start
 - to run the frontend use:
 
 ```sh
+npm install
+```
+
+<br>
+
+
+```sh
 npm start
 ```
 
