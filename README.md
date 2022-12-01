@@ -4,7 +4,7 @@
 
 I created a blog page - [CRUD application](https://budibase.com/blog/crud-app/), where users can login/logout, write article, edit or update the article, delete the article, read articles. At first I needed to set up the backend and the database. I used [MERN stack](https://www.mongodb.com/mern-stack). Then I create the front-end and connected it all together.
 
-There is a Walkthrough at the end 👇 of this Readme file (wait for the gifs to load).
+👉 Here is a Walkthrough video.
 
 <br>
 
@@ -201,16 +201,6 @@ npm start
 
 <br>
 
-<br>
-
-
-### Walkthrough
-
-<br>
-
-
-
-<br>
 
 
 
