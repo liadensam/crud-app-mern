@@ -139,7 +139,7 @@ npm start
 
 
 ```sh
-git clone https://github.com/liadensam/blog.git
+git clone https://github.com/liadensam/crud-app-mern.git
 ```
 
 <br>
@@ -148,7 +148,7 @@ git clone https://github.com/liadensam/blog.git
 
 
 ```sh
-cd blog
+cd crud-app-mern
 ```
 
 <br>
