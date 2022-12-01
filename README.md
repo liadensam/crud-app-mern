@@ -186,7 +186,7 @@ running on [http://localhost:5002](http://localhost:5002)
 
 <br>
 
-<img src="/assets/mongo-backend-connect.png" width="400">
+<img src="/assets/mongo-backend-connect.png" width="500">
 
 <br>
 
